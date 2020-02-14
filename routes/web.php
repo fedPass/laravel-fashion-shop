@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', 'ClotheController@index')->name('homepage');
+Route::get('/', 'HomeController@index')->name('homepage');
 
-// Route::get('/cloth', 'ClotheController@index')->name('cloth');
+Route::get('/cloth', 'ClotheController@index')->name('cloth');
